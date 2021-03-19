@@ -54,9 +54,9 @@ async function performTasks(list) {
         owner: OWNER,
         repo: REPO,
         issue_number: issue.number,
-        state: 'closed',
+        state: 'opened',
         title: articleData.title,
-        labels: ['fetched']
+        labels: ['article']
       })
     } catch(error) {
       await octokit.issues.createComment({
