@@ -26,6 +26,7 @@ module.exports = {
   },
 
   samples: [
-    'https://www.bilibili.com/read/cv9590928'
+    'https://www.bilibili.com/read/cv9590928',
+    'https://www.bilibili.com/read/mobile/9590928'
   ]
 }
