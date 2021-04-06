@@ -13,8 +13,6 @@ module.exports = {
     let html = await res.text()
     let document = new JSDOM(html).window.document
 
-    let title = document.querySelector('h1.title').textContent
-    let author = document.querySelector('a.up-name').textContent
     let content = document.querySelector('div.article-holder')
 
     return {
