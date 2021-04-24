@@ -1,4 +1,3 @@
-
 let { URL } = require('url')
 let fetch = require('node-fetch')
 let { JSDOM } = require('jsdom')
