@@ -69,7 +69,6 @@ async function performTasks(list) {
         repo: REPO,
         issue_number: issue.number,
         state: 'closed',
-        labels: ['error']
       })
       throw error
     }
